@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites | Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #e63946;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #ffb703;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #e63946;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px dashed #ccc;
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍴 Delicious Bites</h1>
+    <p>Fresh • Tasty • Homemade</p>
+  </header>
+
+  <nav>
+    <a href="#starters">Starters</a>
+    <a href="#main">Main Course</a>
+    <a href="#desserts">Desserts</a>
+    <a href="#drinks">Drinks</a>
+  </nav>
+
+  <section class="menu-section" id="starters">
+    <h2>Starters</h2>
+    <div class="menu-item"><p>Tomato Soup</p><span>₹120</span></div>
+    <div class="menu-item"><p>Paneer Tikka</p><span>₹180</span></div>
+    <div class="menu-item"><p>Veg Spring Roll</p><span>₹150</span></div>
+  </section>
+
+  <section class="menu-section" id="main">
+    <h2>Main Course</h2>
+    <div class="menu-item"><p>Butter Naan with Paneer Butter Masala</p><span>₹250</span></div>
+    <div class="menu-item"><p>Veg Biryani</p><span>₹220</span></div>
+    <div class="menu-item"><p>Dal Tadka with Rice</p><span>₹200</span></div>
+  </section>
+
+  <section class="menu-section" id="desserts">
+    <h2>Desserts</h2>
+    <div class="menu-item"><p>Gulab Jamun (2 pcs)</p><span>₹80</span></div>
+    <div class="menu-item"><p>Ice Cream (2 scoops)</p><span>₹100</span></div>
+    <div class="menu-item"><p>Brownie with Chocolate Sauce</p><span>₹150</span></div>
+  </section>
+
+  <section class="menu-section" id="drinks">
+    <h2>Drinks</h2>
+    <div class="menu-item"><p>Cold Coffee</p><span>₹120</span></div>
+    <div class="menu-item"><p>Lemon Soda</p><span>₹90</span></div>
+    <div class="menu-item"><p>Fresh Lime Juice</p><span>₹70</span></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Delicious Bites | Made with ❤️ in Vizianagaram</p>
+  </footer>
+
+</body>
+</html>
